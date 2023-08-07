@@ -1,0 +1,58 @@
+@media (max-width: 1400px) {
+    
+    .payments{
+        width: 95% !important;
+    }
+}
+
+
+@media (max-width: 1130px) {
+    nav .top-items .lets-talk{
+        padding: 10px 15px;
+        font-size: 12px;
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+    .akari-logo{
+        display: none !important;
+    }
+
+    nav .menu{
+        display: none;
+    }
+
+    nav .top-items .lets-talk{
+        display: none;
+    }
+
+    .cards .item-container, .cards-mobile .item-container{
+        width: var(--block-width);
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    .main-text .button-get-started{
+        width: 100%;
+    }
+
+    .block-planet img{
+        width: 200px;
+    }
+
+    .item-button{
+        width: 100% !important;
+    }
+
+    .cards-mobile .cards-item-1 .item-images-1{
+        width: 80% !important;
+    }
+
+    .cards-mobile .cards-item-1 .item-button{
+        margin-top: 0px;
+    }
+}
